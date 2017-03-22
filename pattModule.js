@@ -12,6 +12,7 @@ var greeting = (function () {
 
     module.writeHello = function (lang) {
         document.write(module.getHello(lang));
+	console.log("bla bla");
     };
 
     return module;
