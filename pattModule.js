@@ -11,7 +11,7 @@ var greeting = (function () {
     };
 
     module.writeHello = function (lang) {
-        document.write(module.getHello(lang))
+        document.write(module.getHello(lang));
     };
 
     return module;
